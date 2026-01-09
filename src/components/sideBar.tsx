@@ -78,15 +78,13 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
 
         {/* Logo and User */}
         <div className="mb-6 sm:mb-8">
-          <div className="flex items-center gap-2 mb-4 sm:mb-6">
+          <div className=" border-b-1 pb-5 w-full border-gray-300 flex items-center gap-2 mb-4 sm:mb-6">
             <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
               <span className="text-white font-bold text-sm">GF</span>
             </div>
             <span className="font-bold text-gray-800 text-sm sm:text-base">GOODFOOD</span>
           </div>
-          <div className="bg-green-400 text-white text-xs font-bold px-3 py-1.5 rounded-full w-fit">
-            M H Yusuf
-          </div>
+        
         </div>
 
         {/* Menu Section */}
