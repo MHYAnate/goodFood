@@ -25,7 +25,7 @@ export function MostOrderedFoodCard() {
           {foodItems.map((item) => (
             <div
               key={item.id}
-              className="flex items-center justify-between p-3 border-b-1 border-gray-500 hover:bg-secondary/80 transition-colors"
+              className="flex items-center justify-between p-3 border-b-1 border-gray-300 hover:bg-secondary/80 transition-colors"
             >
               <div className="flex items-center gap-3">
                 <div className="text-2xl">{item.emoji}</div>
