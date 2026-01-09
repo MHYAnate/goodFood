@@ -10,7 +10,7 @@ interface TopNavProps {
 
 export function TopNav({ onMenuClick }: TopNavProps) {
   return (
-    <div className="border-b border-border bg-card px-6 py-4 flex items-center justify-between gap-4">
+    <div className=" border-border bg-card px-6 py-4 flex items-center justify-between gap-4">
       <Button variant="ghost" size="icon" onClick={onMenuClick} className="lg:hidden">
         <Menu className="w-5 h-5" />
       </Button>

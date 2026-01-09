@@ -12,7 +12,7 @@ const foodItems = [
 
 export function MostOrderedFoodCard() {
   return (
-    <Card className="border-0 shadow-lg h-full">
+    <Card className="border-0 h-full">
       <CardHeader className="flex flex-row items-center justify-between space-y-0">
         <div>
           <CardTitle className="text-lg">Most Ordered Food</CardTitle>

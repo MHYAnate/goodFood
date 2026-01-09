@@ -22,7 +22,7 @@ const data = [
 
 export function RevenueCard() {
   return (
-    <Card className="border-0 shadow-lg">
+    <Card className="border-0">
       <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-4">
         <div>
           <CardTitle className="text-lg">Revenue</CardTitle>

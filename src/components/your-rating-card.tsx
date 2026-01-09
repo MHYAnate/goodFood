@@ -89,7 +89,7 @@ function Ring({
 
 export function YourRatingCard() {
   return (
-    <Card className="border-0 rounded-2xl bg-white shadow-sm w-full h-full">
+    <Card className="border-0 rounded-2xl bg-white w-full h-full">
       <CardHeader className="pb-1">
         <CardTitle className="text-[15px] font-semibold text-gray-800">
           Your Rating
