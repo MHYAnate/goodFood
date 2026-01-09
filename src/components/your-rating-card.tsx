@@ -89,7 +89,7 @@ function Ring({
 
 export function YourRatingCard() {
   return (
-    <Card className="border-0 rounded-2xl bg-white shadow-sm w-full">
+    <Card className="border-0 rounded-2xl bg-white shadow-sm w-full h-full">
       <CardHeader className="pb-1">
         <CardTitle className="text-[15px] font-semibold text-gray-800">
           Your Rating
@@ -103,7 +103,7 @@ export function YourRatingCard() {
         <div className="relative h-[230px] w-full">
 
           {/* Hygiene — overlaps Food Taste */}
-          <div className="absolute left-[26%] top-[18%] z-40">
+          <div className="absolute left-[16%] top-[18%] z-40">
             <Ring
               value={85}
               label="Hygiene"
@@ -129,7 +129,7 @@ export function YourRatingCard() {
           </div>
 
           {/* Packaging — isolated, no overlap */}
-          <div className="absolute left-[10%] bottom-[6%] z-10">
+          <div className="absolute left-[3%] top-[66%] z-10">
             <Ring
               value={92}
               label="Packaging"

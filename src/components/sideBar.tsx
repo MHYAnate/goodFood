@@ -42,7 +42,7 @@ export function Sidebar({ isOpen }: SidebarProps) {
       {/* Sidebar */}
       <div
         className={cn(
-          "fixed lg:relative w-64 h-full bg-card border-r-4 border-blue-500 rounded-r-2xl p-6 transition-transform duration-300 z-50 overflow-y-auto",
+          "fixed lg:relative w-64 h-full bg-card p-6 transition-transform duration-300 z-50 overflow-y-auto",
           !isOpen && "-translate-x-full lg:translate-x-0",
         )}
       >
