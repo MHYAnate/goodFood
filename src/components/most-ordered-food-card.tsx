@@ -18,16 +18,14 @@ export function MostOrderedFoodCard() {
           <CardTitle className="text-lg">Most Ordered Food</CardTitle>
           <p className="text-xs text-muted-foreground mt-1">Adipiscing elit, sed do eiusmod tempor</p>
         </div>
-        <Button variant="softBlue" className="text-blue-500 text-sm">
-          View Report
-        </Button>
+        
       </CardHeader>
       <CardContent>
         <div className="space-y-4">
           {foodItems.map((item) => (
             <div
               key={item.id}
-              className="flex items-center justify-between p-3 rounded-lg bg-secondary hover:bg-secondary/80 transition-colors"
+              className="flex items-center justify-between p-3 border-b-1 border-gray-500 hover:bg-secondary/80 transition-colors"
             >
               <div className="flex items-center gap-3">
                 <div className="text-2xl">{item.emoji}</div>

@@ -10,7 +10,7 @@ interface TopNavProps {
 
 export function TopNav({ onMenuClick }: TopNavProps) {
   return (
-    <div className=" border-border bg-card px-6 py-4 flex items-center justify-between gap-4">
+    <div className=" border-b border-b-gray-200 bg-card px-6 py-4 flex items-center justify-between gap-4">
       <Button variant="ghost" size="icon" onClick={onMenuClick} className="lg:hidden">
         <Menu className="w-5 h-5" />
       </Button>
@@ -23,8 +23,8 @@ export function TopNav({ onMenuClick }: TopNavProps) {
       </div>
 
       <div className="flex items-center gap-4">
-        <div className="flex items-center gap-2 px-4 py-2 bg-orange-400 text-white rounded-lg">
-          <span className="text-sm font-semibold">🍔 Delicious Burger</span>
+        <div className="flex items-center gap-2 px-4 py-2  text-black rounded-lg">
+          <div className="flex items-center gap-2 text-sm font-semibold"><div className="bg-orange-400 p-1 rounded-full">🍔</div> Delicious Burger</div>
           <ChevronDown className="w-4 h-4" />
         </div>
         <Button variant="ghost" size="icon">
