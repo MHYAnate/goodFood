@@ -101,24 +101,24 @@ export function Dashboard() {
           </h1>
 
           {/* First Row */}
-          <div className="grid grid-cols-1 xl:grid-cols-3 gap-4 sm:gap-6 mb-4 sm:mb-6">
+          <div className="grid grid-cols-1 xl:grid-cols-3   ">
             <div className="xl:col-span-2">
               <RevenueCard />
             </div>
-            <div className="xl:col-span-1">
+            <div className="xl:col-span-1 border-l-1 border-gray-300">
               <OrderTimeCard />
             </div>
           </div>
 
           {/* Second Row */}
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-6 border-b-gray-800">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 border-t-1 border-gray-300 ">
             <div className="md:col-span-1">
               <YourRatingCard />
             </div>
-            <div className="md:col-span-1">
+            <div className="md:col-span-1 border-l-1 border-gray-300">
               <MostOrderedFoodCard />
             </div>
-            <div className="md:col-span-2 xl:col-span-1">
+            <div className="md:col-span-2 xl:col-span-1 border-l-1 border-gray-300">
               <OrderMetricsCard />
             </div>
           </div>

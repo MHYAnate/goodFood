@@ -17,10 +17,10 @@ const data = [
 export function OrderMetricsCard() {
   return (
     <Card className="border-0 h-full">
-      <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-4">
+      <CardHeader className="flex flex-row items-start justify-between space-y-0 pb-4">
         <div>
           <CardTitle className="text-lg">Order</CardTitle>
-          <div className="flex items-center gap-2 mt-2">
+          <div className="flex flex-col items-center gap-2 mt-2">
             <span className="text-3xl font-bold">2.568</span>
             <div className="flex items-center gap-1 text-red-500 text-sm font-semibold">
               <TrendingDown className="w-4 h-4" />
@@ -29,7 +29,7 @@ export function OrderMetricsCard() {
           </div>
           <p className="text-xs text-muted-foreground mt-1">Sales from 1-8 Dec, 2020</p>
         </div>
-        <Button variant="ghost" className="text-blue-500 text-sm">
+        <Button variant="softBlue" className="text-blue-500 text-sm">
           View Report
         </Button>
       </CardHeader>

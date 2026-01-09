@@ -15,12 +15,12 @@ const COLORS = ["#6366f1", "#a78bfa", "#c4b5fd"]
 export function OrderTimeCard() {
   return (
     <Card className="border-0">
-      <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-4">
+      <CardHeader className="flex flex-row items-start justify-between space-y-0 pb-4">
         <div>
           <CardTitle className="text-lg">Order Time</CardTitle>
           <p className="text-xs text-muted-foreground mt-1">From 1-8 Dec, 2020</p>
         </div>
-        <Button variant="ghost" className="text-blue-500 text-sm">
+        <Button variant="softBlue" className="text-blue-500 text-sm">
           View Report
         </Button>
       </CardHeader>

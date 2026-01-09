@@ -23,10 +23,10 @@ const data = [
 export function RevenueCard() {
   return (
     <Card className="border-0">
-      <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-4">
+      <CardHeader className="flex flex-row items-start justify-between space-y-0 pb-4">
         <div>
           <CardTitle className="text-lg">Revenue</CardTitle>
-          <div className="flex items-center gap-2 mt-2">
+          <div className="flex flex-col items-center gap-2 mt-2">
             <span className="text-3xl font-bold">IDR 7.852.000</span>
             <div className="flex items-center gap-1 text-green-500 text-sm font-semibold">
               <TrendingUp className="w-4 h-4" />
@@ -35,7 +35,7 @@ export function RevenueCard() {
           </div>
           <p className="text-xs text-muted-foreground mt-1">Sales from 1-12 Dec, 2020</p>
         </div>
-        <Button variant="ghost" className="text-blue-500 text-sm">
+        <Button variant="softBlue" className="text-blue-500 text-sm">
           View Report
         </Button>
       </CardHeader>
